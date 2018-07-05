@@ -12,6 +12,10 @@ git checkout iamthebranchneedtobecheck
 4 clone 指定分支  
 git clone -b iamthebranch giturl  
 
+5 还原修改过，但未提交的
+git checkout iamthefileneedtorevert
+
+
 
 
 
