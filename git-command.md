@@ -15,6 +15,9 @@ git clone -b iamthebranch giturl
 5 还原修改过，但未提交的  
 git checkout iamthefileneedtorevert
 
+6 查看远程所有分支  
+git branch -a  
+
 
 
 
