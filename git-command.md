@@ -24,5 +24,6 @@ git add .
 git commit   
 git push  
 
-
+8 git 重命名文件名  
+git mv a.txt b.txt(a->b)  
 
