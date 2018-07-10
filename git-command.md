@@ -18,7 +18,11 @@ git checkout iamthefileneedtorevert
 6 查看远程所有分支  
 git branch -a  
 
-
+7 删除remote文件  
+git rm file.txt  
+git add .  
+git commit   
+git push  
 
 
 
