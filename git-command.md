@@ -29,3 +29,6 @@ git mv a.txt b.txt(a->b)
 
 9 新建分支并切换到新分支  
 git checkout -b dev  
+
+10 更新remote列表  
+git remote update origin --prune  
