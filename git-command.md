@@ -27,3 +27,5 @@ git push
 8 git 重命名文件名  
 git mv a.txt b.txt(a->b)  
 
+9 新建分支并切换到新分支  
+git checkout -b dev  
