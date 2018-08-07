@@ -32,3 +32,6 @@ git checkout -b dev
 
 10 更新remote列表  
 git remote update origin --prune  
+
+11 提交本地resp到remote  
+git push origin iamthelocalresp   
