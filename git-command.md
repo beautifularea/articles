@@ -35,3 +35,13 @@ git remote update origin --prune
 
 11 提交本地resp到remote  
 git push origin iamthelocalresp   
+
+12 reset 到某个commit  
+git reset --hard commitID  
+(commitID后的代码就没有了，慎用！！！）  
+
+13 git fsck --lost-found  
+（如果执行12后，后悔了，试试这个操作，去.git/lost_found/other里面找找看有没有）  
+
+
+
