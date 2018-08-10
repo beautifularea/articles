@@ -43,5 +43,10 @@ git reset --hard commitID
 13 git fsck --lost-found  
 （如果执行12后，后悔了，试试这个操作，去.git/lost_found/other里面找找看有没有）  
 
+14 git revert commit_hash(比如在这个commit_hash上提交的代码要revert)  
+1.添加代码xxx, commit后,commit_hash位xxHash.  
+2.发现不需要这个代码  
+3.git revert xxHash, 并产生一个commit  
+
 
 
