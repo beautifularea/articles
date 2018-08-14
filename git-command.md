@@ -49,9 +49,10 @@ git reset --hard commitID
 3.git revert xxHash, 并产生一个commit  
 
 
---Difference--
+--Difference--  
 git-revert - Revert some existing commits  
 git-reset - Reset current HEAD to the specified state  
+
 git revert is used to record some new commits to reverse the effect of some earlier commits (often only a faulty one).   
 If you want to throw away all uncommitted changes in your working directory, you should see git-reset(1).  
 
