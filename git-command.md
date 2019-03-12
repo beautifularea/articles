@@ -48,6 +48,8 @@ git reset --hard commitID
 2.发现不需要这个代码  
 3.git revert xxHash, 并产生一个commit  
 
+15 git log --author="author"  
+获取当前分支上指定作者的所有提交日志  
 
 --Difference--  
 git-revert - Revert some existing commits  
